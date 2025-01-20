@@ -46,7 +46,7 @@ app:layout_constraintEnd_toEndOf="parent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
-            android:hint="digite sua altura ex: 1.70" />
+            android:hint="digite sua altura ex: 1.80" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
