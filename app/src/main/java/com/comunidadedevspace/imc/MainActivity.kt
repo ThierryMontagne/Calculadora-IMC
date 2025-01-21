@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             val altura: Float = edtAltura.text.toString().toFloat()
             val alturaQ2 = (altura * altura)
             val resultado = peso / alturaQ2
-                println("Thiérry ação do botao" + resultado)
+                println("Thiérry ação do botão" + resultado)
 
         }
 
