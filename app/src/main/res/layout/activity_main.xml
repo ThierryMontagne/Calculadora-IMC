@@ -49,4 +49,4 @@ app:layout_constraintEnd_toEndOf="parent"
             android:hint="digite sua altura ex: 1.70" />
     </com.google.android.material.textfield.TextInputLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>S
+</androidx.constraintlayout.widget.ConstraintLayout>
