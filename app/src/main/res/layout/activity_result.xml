@@ -17,13 +17,13 @@
         tools:text="23.66" />
 
     <TextView
-        android:id="@+id/tv_classificaçao_label"
+        android:id="@+id/tv_classificação_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="A classificação do teu IMC é:" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tv_classificação"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
