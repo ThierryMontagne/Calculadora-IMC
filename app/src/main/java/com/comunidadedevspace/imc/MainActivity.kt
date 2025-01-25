@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
 
                 val alturaQ2 = (altura * altura)
-                val resultado = peso / alturaQ2
+                val result = peso / alturaQ2
 
                 // Navegar para próxima tela
                 // Criar layout
@@ -55,14 +55,17 @@ class MainActivity : AppCompatActivity() {
                 // Intent - classe do próprio Android
 
                 val intent = Intent(this, ResultActivity::class.java)
-
-                intent.putExtras(KEY_RESULT_IMC, resultado)
+                intent.putExtra(KEY_RESULT_IMC, result)
                 startActivity(intent)
 
-                println("Thiérry ação do botão" + resultado)
+                println("Thiérry ação do botão" + result)
             }
 
         }
 
     }
+}
+
+private fun Intent.putExtras(keyResultImc: String, result: Float) {
+
 }
